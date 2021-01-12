@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/nav_home"
+            android:icon="@drawable/home_icon"/>
+        <item
+            android:id="@+id/nav_messages"
+            android:title="@string/nav_messages"
+            android:icon="@drawable/message_icon"/>
+        <item
+            android:id="@+id/nav_schedule"
+            android:title="@string/nav_your_study_schedule"
+            android:icon="@drawable/schedule_icon"/>
+
+        <item
+            android:id="@+id/nav_grades"
+            android:title="@string/nav_grades"
+            android:icon="@drawable/grades_icon"/>
+
+        <item
+            android:id="@+id/nav_exams"
+            android:title="@string/nav_exams"
+            android:icon="@drawable/exams_icon"/>
+    </group>
+
+    <item android:title="@string/nav_scholarship">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_scholarship"
+                    android:title="@string/nav_latest_scholarship"
+                    android:icon="@drawable/scholarships_icon"/>
+
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_settings">
+    <menu>
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_profile"
+                android:title="@string/nav_profile"
+                android:icon="@drawable/profile_icon"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:title="@string/nav_logout"
+                android:icon="@drawable/logout_icon"/>
+
+        </group>
+    </menu>
+    </item>
+
+</menu>

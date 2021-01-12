@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Sem_A_Final_Proj</string>
+    <string name="Learnize">Learnizer</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="click_here_to_signup">Click Here To SignUp</string>
+    <string name="singup">SingUp</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="enter_username">Enter UserName</string>
+    <string-array name="College_array">
+        <item>Ruppin</item>
+        <item>Hifa</item>
+        <item>Tel Aviv</item>
+    </string-array>
+    <string name="hello_username">Hello UserName</string>
+    <string name="messages">Messages :</string>
+    <string name="num_of_messages">0</string>
+    <string name="your_average_grade">Your Average Grade :</string>
+    <string name="avg_score">85.5</string>
+    <string name="ruppin">Ruppin</string>
+    <string name="https_mtr_ruppin_ac_il">https://mtr.ruppin.ac.il/</string>
+    <string name="slogan">BEST FOR STUDENT\'S</string>
+    <string name="your_next_event">Your Next Event :</string>
+    <string name="androi_studio">Android Studio</string>
+    <string name="welcome_back_username">Welcome Back UserName!!</string>
+    <string name="nav_home">HOME</string>
+    <string name="nav_messages">Messages</string>
+    <string name="nav_your_study_schedule">Your Study Schedule</string>
+    <string name="nav_grades">Grades</string>
+    <string name="nav_exams">Exams</string>
+    <string name="nav_settings">Setting</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_scholarship">Scholarship</string>
+    <string name="nav_latest_scholarship">Latest Scholarship</string>
+
+</resources>
