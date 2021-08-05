@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.sem_a_final_proj">
 
+    <!-- these are permission to use the user's gallery,external storage,internet   -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/app_icon"
@@ -9,20 +13,26 @@
         android:roundIcon="@mipmap/app_icon_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sem_A_Final_Proj">
-        <activity android:name=".HomePageActivity">
+        <activity android:name=".HomePageActivity"></activity>
+        <activity android:name=".ScholarshipActivity" />
+        <activity android:name=".ExamsActivity" />
+        <activity android:name=".StudyScheduleActivity" />
+        <activity android:name=".MessagesActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".GradesActivity" />
+        <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SplashScreenActivity">
-
-        </activity>
         <activity android:name=".SingupActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" />
 
-        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

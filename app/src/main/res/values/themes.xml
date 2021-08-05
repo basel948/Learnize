@@ -3,8 +3,8 @@
     <style name="Theme.Sem_A_Final_Proj" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/light_white</item>
-        <item name="colorOnPrimary">@color/light_white</item>
+        <item name="colorPrimaryVariant">@color/lighter_white</item>
+        <item name="colorOnPrimary">@color/lighter_white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
@@ -18,7 +18,7 @@
         <!--Menu Style-->
         <style name="navigationTheme">
             <!--Color of text and icon when SELECTED-->
-            <item name="colorPrimary">@color/light_grey</item>
+            <item name="colorPrimary">#999999</item>
             <!--Background color when SELECTED-->
             <item name="colorControlHighlight">@color/black</item>
         </style>

@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="20"
-    android:background="@color/light_grey"
-    tools:context=".SingupActivity">
+    android:background="@color/white"
+    tools:context="SingupActivity">
 
     <TextView
         android:layout_width="match_parent"
@@ -15,6 +15,8 @@
         android:layout_weight="2"
         android:gravity="center"
         android:text="@string/Learnize"
+        android:fontFamily="@font/bad_script"
+        android:textColor="@color/black"
         android:textSize="30sp"/>
 
     <TextView
@@ -22,6 +24,8 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
+        android:fontFamily="@font/bad_script"
+        android:textColor="@color/black"
         android:text="@string/singup"
         android:textSize="24sp"/>
 
@@ -50,12 +54,12 @@
             android:orientation="vertical">
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/userImg"
-                android:layout_width="100dp"
-                android:src="@drawable/userimage"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                app:civ_border_width="5sp"
+                android:id="@+id/ProfileImg"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/profileiam"
+                android:layout_marginStart="50dp"
+                app:civ_border_width="2sp"
                 app:civ_border_color="@color/black"/>
 
 
@@ -70,8 +74,10 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:hint="@string/enter_username"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
                 android:autofillHints="Enter UserName"
-                android:textSize="10sp"
+                android:textSize="11sp"
                 android:inputType="text"/>
 
             <Space
@@ -84,10 +90,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
                 android:hint="@string/enter_email"
                 android:autofillHints="Enter Email"
                 android:inputType="textEmailAddress"
-                android:textSize="10sp"/>
+                android:textSize="11sp"/>
 
             <Space
                 android:layout_width="match_parent"
@@ -99,9 +107,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
                 android:hint="@string/enter_password"
                 android:autofillHints="Enter Password"
-                android:textSize="10sp"
+                android:textSize="11sp"
                 android:inputType="textPassword"/>
 
             <Space
@@ -114,15 +124,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
                 android:hint="@string/re_enter_password"
                 android:autofillHints="Re-Enter Password"
-                android:textSize="10sp"
+                android:textSize="11sp"
                 android:inputType="textPassword"/>
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"/>
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -133,12 +141,16 @@
                 <RadioButton
                     android:id="@+id/male_SignUp"
                     android:layout_width="112dp"
+                    android:fontFamily="@font/allan"
+                    android:textColor="@color/black"
                     android:layout_height="match_parent"
                     android:text="@string/male" />
 
                 <RadioButton
                     android:id="@+id/female_SignUp"
                     android:layout_width="138dp"
+                    android:fontFamily="@font/allan"
+                    android:textColor="@color/black"
                     android:layout_height="match_parent"
                     android:text="@string/female" />
             </RadioGroup>
@@ -148,24 +160,20 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"/>
 
-            <Spinner
-                android:id="@+id/CollegeSpinner_SignUp"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:entries="@array/College_array"
-                android:textSize="15sp"/>
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"/>
+<!--            <ProgressBar-->
+<!--                android:id="@+id/progress_bar"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="0dp"-->
+<!--                style="@style/Widget.AppCompat.ProgressBar.Horizontal"-->
+<!--                android:layout_weight="1"/>-->
 
             <Button
                 android:id="@+id/btnSignUp_SignUp_page"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="2"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
                 android:text="@string/singup"
                 android:backgroundTint="#4D190F0F"
                 app:cornerRadius="50dp" />

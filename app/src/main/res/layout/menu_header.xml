@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="200dp"
-    android:background="@color/light_grey">
+    android:background="@color/lighter_white">
 
     <TextView
         android:id="@+id/menu_slogan"
@@ -11,6 +11,7 @@
         android:text="@string/slogan"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="10dp"
+        android:fontFamily="@font/bad_script"
         android:textColor="@color/black"
         android:layout_marginStart="15dp"/>
 
@@ -18,6 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Learnize"
+        android:fontFamily="@font/bad_script"
         android:textColor="@color/black"
         android:textSize="24sp"
         android:layout_above="@+id/menu_slogan"
